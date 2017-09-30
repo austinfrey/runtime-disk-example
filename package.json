@@ -1,0 +1,18 @@
+{
+  "name": "runtime-disk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "runtime start --drive disk.img --verbose --nographic --kvm"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fatfs": "^0.10.6",
+    "int64-buffer": "^0.1.9",
+    "msgpack5": "^3.4.1",
+    "runtimejs": "^0.2.14"
+  }
+}
